@@ -40,7 +40,7 @@ import visa # https://pyvisa.readthedocs.io/
 
 # Replace string with your instrument's VISA Resource Address
 
-visaRsrcAddr = "MSO58"
+visaRsrcAddr = "USB::0x0699::0x0528::C015032::INSTR" # USB VISA address of our oscilloscope
 
  
 
